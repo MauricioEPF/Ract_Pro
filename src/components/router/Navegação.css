@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: darkgreen;
+    justify-content: space-around;
+    align-items: center;
+}
+h3, ul, li{
+    color: white; 
+    padding-left: 50px;
+}
+
+ul, li{
+    display: flex;
+    flex-direction: row;
+}
